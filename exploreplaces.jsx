@@ -12,7 +12,10 @@ const ExplorePlaces = ({ projectName, rupees, squareFeet }) => {
           borderRadius: '10px',
           overflow: 'hidden',
           background: 'linear-gradient(to left bottom, #fafafa, #9e9e9e)',
-          position: 'relative', // Add position relative to the container
+          position: 'relative', // Add position relative to the container,
+            backgroundImage:'url()',
+          backgroundSize:"cover",
+          backgroundRepeate:"no-repeate", 
         }}
       >
         <Box
